@@ -1321,7 +1321,7 @@ body, input, textarea, select, button {
 
 .bicycle-types__image_position_left {
   grid-area: img1;
-  background-image: url(../images/highway.jpg);
+  background: url(../images/highway.jpg);
   position: relative;
 }
 .bicycle-types__image_position_left::before {
