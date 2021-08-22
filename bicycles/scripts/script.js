@@ -100,8 +100,8 @@ function createBicycleTypes(object) {
   clone = bicycleTypesTemplate.content.cloneNode(true);
   clone.querySelector(".bicycle-types__title").textContent = object.title;
   clone.querySelector(".bicycle-types__text").textContent = object.text;
-  clone.querySelector(".bicycle-types__image_position_left").style.background = object.imageLeft;
-  clone.querySelector(".bicycle-types__image_position_right").style.background = object.imageRight;
+  clone.querySelector(".bicycle-types__image_position_left").style.backgroundImage = object.imageLeft;
+  clone.querySelector(".bicycle-types__image_position_right").style.backgroundImage = object.imageRight;
 }
 
 bicycleTypesObjects.forEach( (i)=> {
