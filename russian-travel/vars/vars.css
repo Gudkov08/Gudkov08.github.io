@@ -1,0 +1,30 @@
+:root {
+  --page-padding-left: 48px;
+  --page-padding-right: 48px;
+  --section-padding-left: 48px;
+  --section-padding-right: 48px;
+  --section-padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1184px) {
+  :root {
+    --page-padding-left: 0;
+    --page-padding-right: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  :root {
+    --section-padding-left: 24px;
+    --section-padding-right: 24px;
+    --section-padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --section-padding-left: 16px;
+    --section-padding-right: 16px;
+    --section-padding-bottom: 64px;
+  }
+}

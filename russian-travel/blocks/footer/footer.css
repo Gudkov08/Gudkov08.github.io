@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1184px) {
+  .footer {
+    padding-left: var(--section-padding-left);
+    padding-right: var(--section-padding-right);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,9 @@
+.places__card-text {
+}
+
+@media screen and (max-width: 767px) {
+  .places__card-text {
+    padding-left: var(--section-padding-left);
+    padding-right: var(--section-padding-right);
+  }
+}

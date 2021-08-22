@@ -1,0 +1,46 @@
+.cover__item {
+  background: center / cover no-repeat url("../../../images/cover.jpg");
+  min-height: 740px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cover__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2a2c2f;
+  opacity: 0.3;
+}
+
+.cover__item:hover:before {
+  opacity: 0.8;
+  transition: 0.3;
+}
+
+@media (min-width: 1024px) and (max-width: 1183px) {
+  .cover__item {
+    min-height: 640px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cover__item {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__item {
+    min-height: calc(100vw / 1.6);
+  }
+}

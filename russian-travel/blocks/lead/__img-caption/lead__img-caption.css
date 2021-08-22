@@ -1,0 +1,20 @@
+.lead__img-caption {
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-block-start: 8px;
+  margin-block-end: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .lead__img-caption {
+    padding-left: var(--section-padding-left);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__img-caption {
+    padding-left: var(--section-padding-left);
+  }
+}

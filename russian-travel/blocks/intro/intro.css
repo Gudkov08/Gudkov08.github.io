@@ -1,0 +1,5 @@
+.intro {
+  padding-left: var(--section-padding-left);
+  padding-right: var(--section-padding-right);
+  padding-bottom: var(--section-padding-bottom);
+}

@@ -1,0 +1,7 @@
+.places__card-webcite-link {
+  display: block;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: inherit;
+}

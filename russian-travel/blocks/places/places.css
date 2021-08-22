@@ -1,0 +1,12 @@
+.places {
+  padding-left: var(--section-padding-left);
+  padding-right: var(--section-padding-right);
+  padding-bottom: var(--section-padding-bottom);
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

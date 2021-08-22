@@ -1,0 +1,25 @@
+.photos__gallery {
+  margin: 0;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+@media (min-width: 1024px) and (max-width: 1183px) {
+  .photos__gallery {
+    gap: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .photos__gallery {
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photos__gallery {
+    gap: 12px;
+  }
+}
